@@ -64,3 +64,4 @@ D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\obj\Debug\net9.0\refint\LearnAvalonia.
 D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\obj\Debug\net9.0\LearnAvalonia.pdb
 D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\obj\Debug\net9.0\LearnAvalonia.genruntimeconfig.cache
 D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\obj\Debug\net9.0\ref\LearnAvalonia.dll
+D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\obj\Debug\net9.0\LearnAvalonia.sourcelink.json
