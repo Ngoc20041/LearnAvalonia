@@ -65,3 +65,15 @@ D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\obj\Debug\net9.0\LearnAvalonia.pdb
 D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\obj\Debug\net9.0\LearnAvalonia.genruntimeconfig.cache
 D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\obj\Debug\net9.0\ref\LearnAvalonia.dll
 D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\obj\Debug\net9.0\LearnAvalonia.sourcelink.json
+D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\bin\Debug\net9.0\Avalonia.Svg.Skia.dll
+D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\bin\Debug\net9.0\ExCSS.dll
+D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\bin\Debug\net9.0\ShimSkiaSharp.dll
+D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\bin\Debug\net9.0\SkiaSharp.HarfBuzz.dll
+D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\bin\Debug\net9.0\Svg.Custom.dll
+D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\bin\Debug\net9.0\Svg.Model.dll
+D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\bin\Debug\net9.0\Svg.Skia.dll
+D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\bin\Debug\net9.0\Material.Avalonia.dll
+D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\bin\Debug\net9.0\Material.Colors.dll
+D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\bin\Debug\net9.0\Material.Ripple.dll
+D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\bin\Debug\net9.0\Material.Styles.dll
+D:\BUIBAONGOC\.NET\Avalonia\LearnAvalonia\bin\Debug\net9.0\CommunityToolkit.Mvvm.dll

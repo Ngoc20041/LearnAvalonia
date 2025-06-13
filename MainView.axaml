@@ -1,0 +1,109 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="1024" d:DesignHeight="600"
+        Width="1024" Height="600"
+        x:Class="LearnAvalonia.MainView"
+        xmlns:vm="clr-namespace:LearnAvalonia.ViewModels"
+        x:DataType="vm:MainViewModel"
+        Title="Learn Avalonia">
+    <Design.DataContext>
+        <vm:MainViewModel></vm:MainViewModel>
+    </Design.DataContext>
+    <Grid
+        Background="{DynamicResource PrimaryBackground}"
+        ColumnDefinitions="Auto,*">
+        <Border
+            Padding="20"
+            Background="{DynamicResource PrimaryBackgroundGradient}">
+            <Grid RowDefinitions="*,Auto">
+                <StackPanel Spacing="12">
+                    <Image Source="{Binding SideMenuImage}" Width="220"></Image>
+                    <Button HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets"
+                                       Padding="0 5"
+                                       Text="&#xe80f;"
+                                       FontSize="20"
+                                       Foreground="White" />
+                            <Label Classes="padding-style" 
+                                   Content="Home" 
+                                   IsVisible="{Binding SideMenuExpaned}"></Label>
+                        </StackPanel>
+                    </Button>
+                    <Button HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                            <TextBlock FontFamily="Segoe MDL2 Assets"
+                                       Padding="0 6"
+                                       Text="&#xe954;"
+                                       FontSize="20"
+                                       Foreground="White" />
+                            <Label Classes="padding-style" 
+                                   Content="Process" 
+                                   IsVisible="{Binding SideMenuExpaned}"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets"
+                                       Padding="0 6"
+                                       Text="&#xe93c;"
+                                       FontSize="18"
+                                       Foreground="White" />
+                            <Label Classes="padding-style" 
+                                   Content="Actions" 
+                                   IsVisible="{Binding SideMenuExpaned}"></Label>
+                        </StackPanel>
+                    </Button>
+                    <Button HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets"
+                                       Padding="0 6"
+                                       Text="&#xe958;"
+                                       FontSize="18"
+                                       Foreground="White" />
+                            <Label Classes="padding-style" 
+                                   Content="Macros"
+                                   IsVisible="{Binding SideMenuExpaned}"></Label>
+                        </StackPanel>
+                    </Button>
+                    <Button HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets"
+                                       Padding="0 6"
+                                       Text="&#xf586;"
+                                       FontSize="18"
+                                       Foreground="White" />
+                            <Label Classes="padding-style" 
+                                   Content="Reporter"
+                                   IsVisible="{Binding SideMenuExpaned}"></Label>
+                        </StackPanel>
+                    </Button>
+                    <Button HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets"
+                                       Padding="0 6"
+                                       Text="&#xef3f;"
+                                       FontSize="18"
+                                       Foreground="White" />
+                            <Label Classes="padding-style" 
+                                   Content="History" 
+                                   IsVisible="{Binding SideMenuExpaned}"></Label>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <Grid Grid.Row="1">
+                    <Button Padding="6">
+                        <TextBlock FontFamily="Segoe MDL2 Assets"
+                                   Text="&#xE713;"
+                                   FontSize="28"
+                                   Foreground="White" />
+                    </Button>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+
+</Window>

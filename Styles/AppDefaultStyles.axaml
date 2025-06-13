@@ -1,13 +1,51 @@
 ﻿<Styles xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Design.PreviewWith>
-        <Border Padding="20">
+        <Border 
+            Padding="20" 
+            Background="{DynamicResource PrimaryBackgroundGradient}"
+            Width="200"
+            >
             <!-- Add Controls for Previewer Here -->
-            <Button Content="Hello Word">
-                
+            <Button HorizontalAlignment="Stretch">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontFamily="Segoe MDL2 Assets"
+                               Padding="0 6"
+                               Text="&#xe80f;"
+                               FontSize="20" 
+                               Foreground="White"/>
+                    <Label  Content="Home"></Label>
+                </StackPanel>
             </Button>
         </Border>
     </Design.PreviewWith>
 
     <!-- Add Styles Here -->
+    <Style Selector="Label.padding-style">
+        <Setter Property="Padding" Value="5 1 10 0 "/>
+    </Style>
+    <Style Selector="Window">
+        <Setter Property="FontFamily" Value="{DynamicResource RiverSchool}"></Setter>
+    </Style>
+    <Style Selector="Button">
+        <Setter Property="Padding" Value="20 5 10 5"></Setter>
+        <Setter Property="CornerRadius" Value="10"></Setter>
+        <Setter Property="FontSize" Value="20"></Setter>
+        <Setter Property="Foreground" Value="{DynamicResource PrimaryForeground}"></Setter>
+        <Setter Property="Background" Value="{DynamicResource PrimaryBackground}"></Setter>
+    </Style>
+    <Style Selector="Button /template/ ContentPresenter">
+        <Setter Property="Transitions">
+            <Transitions>
+                <BrushTransition Property="Foreground" Duration="0:0:0.1" />
+                <BrushTransition Property="Background" Duration="0:0:0.1" />
+                <TransformOperationsTransition Property="RenderTransform" Duration="0:0:0.1" />
+            </Transitions>
+        </Setter>
+    </Style>
+    <Style Selector="Button:pointerover/template/ContentPresenter">
+        <Setter Property="FontSize" Value="20"></Setter>
+        <Setter Property="Foreground" Value="{DynamicResource  PrimaryHoverForeground}"></Setter>
+        <Setter Property="Background" Value="{DynamicResource PrimaryHoverBackground}"></Setter>
+    </Style>
 </Styles>

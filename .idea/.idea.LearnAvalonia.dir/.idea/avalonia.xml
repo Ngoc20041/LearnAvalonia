@@ -3,7 +3,14 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="App.axaml" value="LearnAvalonia.csproj" />
+        <entry key="Layouts/LoginWindow.axaml" value="LearnAvalonia.csproj" />
+        <entry key="Layouts/Resources1.axaml" value="LearnAvalonia.csproj" />
+        <entry key="Layouts/UserControl1.axaml" value="LearnAvalonia.csproj" />
         <entry key="MainWindow.axaml" value="LearnAvalonia.csproj" />
+        <entry key="Styles/AppDefaultStyles.axaml" value="LearnAvalonia.csproj" />
+        <entry key="Styles/Resources1.axaml" value="LearnAvalonia.csproj" />
+        <entry key="Styles/UserControl1.axaml" value="LearnAvalonia.csproj" />
       </map>
     </option>
   </component>
